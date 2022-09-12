@@ -1,17 +1,18 @@
 # AlphaStar.
 
-[AlphaStar](https://github.com/deepmind/alphastar) is a package from
+AlphaStar is a package from
 [DeepMind](http://deepmind.com) that provides the tools to train an agent to
 master StarCraft II offered by [Blizzard Entertainment](http://blizzard.com).
 
 Regarding research efforts, there are two main milestones that can relate with
-this open source release. The first one, Paper published at Nature and Neurips 2019,
+this open source release. The first one, Paper published at [Nature](https://www.seas.upenn.edu/~cis520/papers/RL_for_starcraft.pdf) 
+and presented [ICML 2019 Reinforcement Learning workshop](https://slideslive.com/38917653/alphastar-mastering-the-game-of-starcraft-ii),
 presents an **online learning** - learning through interaction with an evironment- 
 type of scenario: however, there are concepts not covered in this release,
 such as the multi-agent league. 
 
-The second research effort, AlphaStar Unpluggued, focus in offline reinforcement
-learning -learning through data-. The results overpass the published Nature paper release. 
+The second research effort, [AlphaStar Unpluggued](https://openreview.net/forum?id=Np8Pumfoty), focus in offline reinforcement
+learning -learning through data-. The agent performance overpass the published Nature paper release. 
 It is based in a set of agents in the offline setting and offline setting with online learning.
 
 This release allows you to reproduce all the offline settings and sets the benchmark
@@ -32,8 +33,8 @@ StarCraft II, we provide the following key offerings with this package:
 
 We have tested AlphaStar only in **Python3.9** and **Linux**. Currently, we do
 not support other operating systems and recommend users to stick to Linux.
-The supported StarCraft game version for reproducibility is 
-[4.9.2](https://github.com/Blizzard/s2client-proto#downloads)
+The supported StarCraft game version for reproducibility tested in this repository is 
+[4.8.2](https://github.com/Blizzard/s2client-proto#downloads)
 
 ### Preliminaries
 
