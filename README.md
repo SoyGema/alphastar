@@ -9,14 +9,15 @@ this open source release. The first one, Paper published at [Nature](https://www
 and presented [ICML 2019 Reinforcement Learning workshop](https://slideslive.com/38917653/alphastar-mastering-the-game-of-starcraft-ii),
 presents an **online learning** - learning through interaction with an evironment- 
 type of scenario: however, there are concepts not covered in this release,
-such as the multi-agent league. 
+such as the multi-agent league. For other open-source approaches heavily based on
+AlphaStar, please visit [mini-AlphaStar](https://github.com/liuruoze/mini-AlphaStar)
 
 The second research effort, [AlphaStar Unpluggued](https://openreview.net/forum?id=Np8Pumfoty), focus in offline reinforcement
-learning -learning through data-. The agent performance overpass the published Nature paper release. 
-It is based in a set of agents in the offline setting and offline setting with online learning.
+learning -learning through data coming from game replays-. The work benchmarks and present a set of agents , culminating in one thatoverpass the published Nature paper release. This agent is based in a set of agents in the offline setting and offline setting with online learning.
+However, this is not part of the open source release.
 
 This release allows you to reproduce all the offline settings and sets the benchmark
-for the online setting. 
+for the online setting, so it kicks of an imitation learning scenario. 
 
 As part of our open-sourcing efforts to drive more research interest around
 StarCraft II, we provide the following key offerings with this package:
